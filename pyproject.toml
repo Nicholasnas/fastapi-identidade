@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fastid"
+version = "0.1.0"
+description = ""
+authors = ["Nicholas <nicholasnas.nn@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.6"
+uvicorn = {extras = ["standard"], version = "^0.34.0"}
+authlib = "^1.4.0"
+jinja2 = "^3.1.5"
+pydantic-settings = "^2.7.0"
+httpx = "^0.28.1"
+itsdangerous = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
